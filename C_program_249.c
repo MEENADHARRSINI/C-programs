@@ -13,9 +13,11 @@ main()
 	fnread(a);
 	fnread(b);
 	fnread(c);
+	d[0]='\0';
 	fnmerge(a,d);
 	fnmerge(b,d);
 	fnmerge(c,d);
+	puts(d);
 }
 void fnread(char x[])
 {
