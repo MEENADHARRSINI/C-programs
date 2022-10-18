@@ -10,7 +10,8 @@ main()
 	int i,j,m;
 	for (i=0;(a[i]=getchar())!='$';i++)
 	;
-	for
+	a[i]='\0';
+	for (scanf("%d",&m),i=m,j=0;a[i]!='\0';j++,i++)
 	b[j]=a[i];
 	b[j]='\0';
 	printf("%s",b);

@@ -1,7 +1,7 @@
 /*
 program 249
 16.09.22
-merge two text
+merge three text
 */
 #include<stdio.h>
 void fnread(char a[]);

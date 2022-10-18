@@ -23,5 +23,5 @@ main()
 	if(a=='u')
 	printf("umbrella %c",a);
 	else
-	printf("not a vowel %d",a);
+	printf("not a vowel %c",a);
 }

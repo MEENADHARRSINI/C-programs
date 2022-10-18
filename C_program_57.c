@@ -1,7 +1,7 @@
 /*
 program 57
 24.06.22
-number between two limits
+number between two limits 
 */
 #include<stdio.h>
 main()

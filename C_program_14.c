@@ -13,5 +13,5 @@ main()
 	c=a+b;
 	d=a*b;
 	printf("%d",c);
-	printf("%d",d);
+	printf("%d ",d);
 }

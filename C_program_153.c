@@ -7,7 +7,7 @@ print the star
 main()
 {
 	int n,c,d;
-	for (n=7,c=1;c<=6;c++,n--);
+	for (n=7,c=1;c<=7;c++,n--)
 	{
 		for (d=1;d<=n;d++)
 		printf("*");

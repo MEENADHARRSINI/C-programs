@@ -1,7 +1,17 @@
 /*
 program 80
 30.06.22
-print the star
+print the star      *
+                   ***
+                  *****
+                 *******
+                *********
+               ***********
+                *********
+                 *******
+                  *****
+                   ***
+                    *
 */
 #include<stdio.h>
 main()

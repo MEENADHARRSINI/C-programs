@@ -7,7 +7,7 @@ count the number of times the pattern exist
 main()
 {
 	int i,j,k,p;
-	char a[1000],b[1000],c[1000];
+	char a[1000],b[1000];
 	for (i=0;(a[i]=getchar())!='$';i++)
 	;
 	a[i]='\0';
@@ -16,7 +16,7 @@ main()
 	b[j]='\0';
 	for (i=0,p=0;a[i];i++)
 	{
-		for (i=0,k=i;b[j]=a[k]&&b[j]!='\0';j++,k++)
+		for (j=0,k=i;b[j]==a[k]&&b[j]!='\0';j++,k++)
 		;
 		if (b[j]=='\0')
 		p++;

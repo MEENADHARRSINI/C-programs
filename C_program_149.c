@@ -7,10 +7,10 @@ smallest of ten numbers
 main()
 {
 	int a,b,c,d;
-	for (c=1;c<=10;c++)
+	for (c=1,b=999;c<=10;c=c+1)
 	{
 		scanf("%d",&a);
-		d=a<b?a:b;
+		b=a<b?a:b;
 	}
-	printf("%d",d);
+	printf("%d",b);
 }

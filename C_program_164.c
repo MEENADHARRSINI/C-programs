@@ -11,8 +11,8 @@ main()
 	scanf("%d",&a[i]);
 	for (i=0,b=0,c=999;i<=9;i++)
 	{
-		b=a[i]>a[b]?i:b;
-		c=a[i]<a[c]?i:c;
+		b=a[i]>b?i:b;
+		c=a[i]<c?i:c;
 	}
 	d=a[b];
 	a[b]=a[c];

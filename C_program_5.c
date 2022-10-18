@@ -10,5 +10,5 @@ main()
 	r=5;
 	h=10;
 	v=3.14*r*r*h;
-	printf("%fs",v);
+	printf("%f",v);
 }

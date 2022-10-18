@@ -1,7 +1,7 @@
 /*
 program 52
 23.06.22
-arithmetic operator or not
+arithmetic operator or not using case method
 */
 #include<stdio.h>
 main()

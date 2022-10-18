@@ -11,7 +11,7 @@ main()
 	if(a>=65&&a<=90)
 	{
 		b=a+32;
-		printf("b %c",b);
+		printf("%c",b);
 	}
 	else
 	printf("not upper case %c",a);

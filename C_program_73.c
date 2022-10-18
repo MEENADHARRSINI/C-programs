@@ -1,7 +1,7 @@
 /*
-program 72
+program 73
 28.06.22
-print the star in one coloumn
+print the star******
 */
 #include<stdio.h>
 main()

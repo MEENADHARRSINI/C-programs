@@ -1,7 +1,7 @@
 /*
 program 145
 18.08.22
-biggest of three integr using ternary expression
+biggest of three integer using ternary expression
 */
 #include<stdio.h>
 main()

@@ -8,6 +8,7 @@ main()
 {
 	char c;
 	int u,l,d,s;
+	u=l=d=s=0;
 	scanf("%c",&c);
 	while (c!='$')
 	{

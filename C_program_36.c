@@ -8,9 +8,10 @@ main()
 {
 	int n;
 	scanf("%d",&n);
-	if(n)
-	printf("not zero %d",n);
-	else
+	n==0;
+	if(!n)
 	printf("zero %d",n);
+	else
+	printf("not zero %d",n);
 }
 

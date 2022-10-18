@@ -1,7 +1,7 @@
 /*
 program 10
 17.06.22
-area of circle without fixed value, by giving input
+area of circle by giving input
 */
 #include<stdio.h>
 main()

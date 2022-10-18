@@ -15,5 +15,5 @@ main()
 	scanf("%d",&d.b);
 	scanf("%d",&d.c);
 	d.e=d.a>d.b?(d.a>d.c?d.a:d.c):(d.b>d.c?d.b:d.c);
-	printf("big %d",d.e);
+	printf("biggest of three numbers %d",d.e);
 }

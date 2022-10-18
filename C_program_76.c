@@ -1,7 +1,13 @@
 /*
-program 75
+program 76
 28.06.22
-print the star in decreasing order
+print the star*******
+              ******
+              *****
+              ****
+              ***
+              **
+              *
 */
 #include<stdio.h>
 main()
@@ -9,7 +15,7 @@ main()
 	int n,c,d;
 	n=7;
 	c=1;
-	while(c<=6)
+	while(c<=7)
 	{
 		d=1;
 		while(d<=n)

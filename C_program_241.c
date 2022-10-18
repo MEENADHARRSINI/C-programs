@@ -30,7 +30,7 @@ void fn2(char x[])
 		if(x[i]>='A'&&x[i]<='Z')
 		u++;
 		else
-		if(x[i]>'a'&&x[i]<='z')
+		if(x[i]>='a'&&x[i]<='z')
 		l++;
 		else
 		if(x[i]>='0'&&x[i]<='9')

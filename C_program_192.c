@@ -1,7 +1,7 @@
 /*
 program 192
 25.08.22
-convert the photon to pascal 
+convert the fortron to pascal 
 */
 #include<stdio.h>
 main()
@@ -11,19 +11,19 @@ main()
 	for (i=0;(a[i]=getchar())!='$';i++)
 	;
 	a[i]='\0';
-	for (j=0;a[i];j++,i++)
+	for (i=j=0;a[i];j++,i++)
 	{
 		if (a[i]=='=')
 		{
 			b[j]=':';
-			j++;
+			j=j+1;
 			b[j]='=';
 		}
 		else
 		if (a[i]=='\n')
 		{
 			b[j]=';';
-			j++;
+			j=j+1;
 			b[j]='\n';
 		}
 		else

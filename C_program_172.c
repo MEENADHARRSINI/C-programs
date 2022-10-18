@@ -20,13 +20,15 @@ main()
 	for (i=0;i<=2;i++)
 	{
 		for (j=0;j<=2;j++)
-		c[i][j]=0;
 		{
-			for (k=0;k<=2;k++)
-			c[i][j]=a[i][j]*b[i][j];
+			for (k=0,c[i][j]=0;k<=2;k++)
+			c[i][j]=c[i][j]+a[i][k]*b[k][j];
 		}
 	}
 	for (i=0;i<=2;i++)
-	printf("%d",c[i][j]);
+	{
+		for (j=0;j<=2;j++)
+	    printf("%d",c[i][j]);
+	}
 }
 	

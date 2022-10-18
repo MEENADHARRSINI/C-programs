@@ -8,17 +8,17 @@ main()
 {
 	int i,j,k,n;
 	char a[1000],c[1000];
-	int b[100];
-	for (i=0;(a[i]=getchar())!='$';i++)
+	int b[1000];
+	for (i=0,j=0;(a[i]=getchar())!='$';i++)
 	;
 	a[i]='\0';
-	for (j=0;a[i];i++)
+	for (i=j=b[j]=0,j++;a[i]!='\0';i++)
 	{
 		if (a[i]=='\n')
 		{
 			b[j]=i+1;
-			j++;
-		}
+			j=j+1;
+	    }
 	}
 	b[j]=-1;
 	for (scanf("%d",&n),j=0;b[j]!=-1;j++)
@@ -26,7 +26,7 @@ main()
 	b[j]=-1;
 	for (k=0,i=b[n-1];a[i]!='\n';k++,i++)
 	c[k]=a[i];
-	c[k]='\n';
-	for (k=0;c[k]!='\n';k++)
+	c[k]='\0';
+	for (k=0;c[k]!='\0';k++)
 	printf("%c",c[k]);
 }

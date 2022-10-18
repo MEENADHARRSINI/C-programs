@@ -1,7 +1,7 @@
 /*
 program 62
 25.06.22
-number of positive,negative or zero other than thousand
+count the number of positive,negative or zero other than thousand
 */
 #include<stdio.h>
 main()

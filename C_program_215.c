@@ -13,13 +13,14 @@ main()
 		float salary;
 		char address[20];
 	}BIO;
-	BIO a;
-	scanf("%s",a.name);
-	scanf("%d",&a.age);
-	scanf("%f",&a.salary);
-	scanf("%s",a.address);
-	printf("Name %s",a.name);
-	printf("Age %d",a.age);
-	printf("Salary %f",a.salary);
-	printf("Address %s",a.address);
+	BIO a,*pa;
+	pa=&a;
+	scanf("%s", a.name);
+	scanf("%d", & a.age);
+	scanf("%f", & a.salary);
+	scanf("%s", a.address);
+	printf("Name %s", a.name);
+	printf("Age %d", a.age);
+	printf("Salary %f", a.salary);
+	printf("Address %s", a.address);
 }

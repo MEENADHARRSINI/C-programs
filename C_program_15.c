@@ -8,11 +8,14 @@ main()
 {
 	int n,a,b,c,d;
 	scanf("%d",&n);
+	if (n<1000)
+	{
 	a=n%10;
 	b=n/10;
 	c=b%10;
 	d=b/10;
-	printf("%d",d);
-	printf("%d",c);
+	printf("%d \n",d);
+	printf("%d \n",c);
 	printf("%d",a);
+    }
 }

@@ -6,10 +6,10 @@ area of triangle
 #include<stdio.h>
 main()
 {
-	float h,b,a;
+	float h,b,c;
 	b=10;
 	h=15;
-	a=1.0/2.0*b*h;
-	printf("%f",a);
+	c=1.0/2.0*b*h;
+	printf("%f",c);
 	
 }

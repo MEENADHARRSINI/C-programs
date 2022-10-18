@@ -10,9 +10,9 @@ main()
 	for (c=1,b=0,d=999;c<=10;c++)
 	{
 		scanf("%d",&a);
-		e=a>b?a:b;
-		f=a<d?a:d;
+		b=a>b?a:b;
+		d=a<d?a:d;
 	}
-	printf("%d",e);
-	printf("%d",f);
+	printf("%d",b);
+	printf("%d",d);
 }

@@ -7,23 +7,24 @@ given word or pattern is available in the text or not
 main()
 {
 	int i,j,k;
-	char a[1000],b[1000],c[1000];
+	char a[1000],b[1000];
 	for (i=0;(a[i]=getchar())!='$';i++)
 	;
 	a[i]='\0';
 	for (j=0;(b[j]=getchar())!='$';j++)
 	;
 	b[j]='\0';
-	for (i=0;a[i];i++)
+	for (i=0;a[i];)
 	{
 		for (j=0,k=i;b[j]==a[k]&&b[j]!='\0';j++,k++)
 		;
 		if (b[j]=='\0')
 		{
-			putchar(exist);
-			return;
+			printf("exist %c",b[j]);
+			return 0;
 		}
-		i++;
+		else
+		i=i+1;
 	}
-	putchar(not exist);
+	printf("not exist %c",b[j]);
 }

@@ -1,7 +1,12 @@
 /*
-program 73
+program 74
 28.06.22
-print the star in five coloumn and six rows
+print the star******
+              ******
+              ******
+              ******
+              ******
+              ******
 */
 #include<stdio.h>
 main()

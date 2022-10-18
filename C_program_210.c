@@ -1,5 +1,6 @@
 /*
 program 210
+27.08.22
 smallest of three numbers
 */
 #include<stdio.h>
@@ -14,5 +15,5 @@ main()
 	scanf("%d",&d.b);
 	scanf("%d",&d.c);
 	d.e=d.a<d.b?(d.a<d.c?d.a:d.c):(d.b<d.c?d.b:d.c);
-	printf("small %d",d.e);
+	printf("smallest of three numbers %d",d.e);
 }

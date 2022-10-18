@@ -1,7 +1,7 @@
 /*
 program 8
 17.06.22
-product of two real numbers without fixed value, by giving input
+product of two real numbers by giving input
 */
 #include<stdio.h>
 main()

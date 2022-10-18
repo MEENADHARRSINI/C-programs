@@ -1,7 +1,7 @@
 /*
 program 217
 02.08.22
-read and displat the complex numbers (real numbers)
+read and display the complex numbers (real numbers)
 */
 #include<stdio.h>
 main()

@@ -1,7 +1,7 @@
 /*
 program 11
 17.06.22
-volume of sphere without fixed value, by giving input
+volume of sphere by giving input
 */
 #include<stdio.h>
 main()

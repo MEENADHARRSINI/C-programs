@@ -10,13 +10,13 @@ main()
 	scanf("%c",&c);
 	while(c!='$')
 	{
-		if (c>=65 && c<=90)
+		if (c>=65&&c<=90)
 		printf("upper case %c",c);
 		else
-		if(c>=97 &&c<=122)
+		if(c>=97&&c<=122)
 		printf("lower case %c",c);
 		else
-		if(c>=48&& c<=57)
+		if(c>=48&&c<=57)
 		printf("digit %c",c);
 		else
 		printf("special character %c",c);

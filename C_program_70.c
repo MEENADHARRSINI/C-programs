@@ -12,7 +12,7 @@ main()
 	while (c<=10)
 	{
 		scanf("%d",&a);
-		if(a>0)
+		if(a>b)
 		b=a;
 		c=c+1;
 	}

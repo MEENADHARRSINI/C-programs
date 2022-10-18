@@ -12,7 +12,7 @@ main()
 	for (i=0;(a[i]=getchar())!='$';i++)
 	;
 	a[i]='\0';
-	for (j=0;a[i];i++)
+	for (i=j=0,b[j]=0,j=j+1;a[i];i++)
 	{
 		if (a[i]=='\n')
 		{
@@ -20,13 +20,11 @@ main()
 			j++;
 		}
 	}
-	b[j]='-1';
-	for (scanf("%d %d",&n,&m),k=0,i=b[n-1],j=b[m];i<j;i++)
-	{
-		c[k]=a[i];
-		k++;
-	}
+	b[j]=-1;
+	scanf("%d %d",&n,&m);
+	for (i=j=k=0,i=b[n-1],j=b[m];i<j;k++,i++)
+	c[k]=a[i];
 	c[k]='\0';
 	for (k=0;c[k];k++)
-	putchar(c[k]);
+	printf("%c",c[k]);
 } 

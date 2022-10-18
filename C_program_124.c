@@ -32,14 +32,12 @@ main()
 		scanf("%c",&c[k]);
 	}
 	c[k]='\0';
-	//printf("%s %s %s",a,b,c);
 	i=0;
 	m=0;
 	while (a[i]!='\0')
 	{
 		j=0;
 		k=i;
-		//l=i;
 		while (b[j]==a[k]&&b[j]!='\0')
 		{
 			j=j+1;

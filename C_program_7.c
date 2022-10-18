@@ -1,7 +1,7 @@
 /*
 program 7
 17.06.22
-area of triangle without fixed value, by giving input
+area of triangle by giving input
 */
 #include<stdio.h>
 main()

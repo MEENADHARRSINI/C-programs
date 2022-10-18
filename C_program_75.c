@@ -1,7 +1,12 @@
 /*
-program 74
+program 75
 28.06.22
-print the star by adding one extra in next column
+print the star*
+              **
+              ***
+              ****
+              *****
+              ******
 */
 #include<stdio.h>
 main()

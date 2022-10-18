@@ -6,7 +6,7 @@ interchange second biggest and second smallest
 #include<stdio.h>
 main()
 {
-	int a[10],b,c,d,e,i,p1,p2;
+	int a[10],b,c,d,e,f,i,p1,p2;
 	i=0;
 	b=0;
 	c=0;
@@ -35,10 +35,9 @@ main()
 		}
 	i=i+1;
     }
+    printf("%d %d \n",b,d);
     i=0;
-    c=0;
-    d=999;
-    e=999;
+    c=a[i];
     while (i<=9)
     {
     	if (a[i]!=b)
@@ -52,9 +51,7 @@ main()
 		i=i+1;
 	}
 		i=0;
-		b=0;
-		c=0;
-		e=999;
+		e=b;
 		while (i<=9)
 		{
 			if (a[i]!=d)
@@ -67,13 +64,13 @@ main()
 			}
 			i=i+1;
 		}
+		printf("%d %d \n",c,e);
 		a[p1]=e;
 		a[p2]=c;
 		i=0;
 		while (i<=9)
 		{
-			printf("%d ,",a[i]);
+			printf("%d",a[i]);
         	i=i+1;
         }
 	}
-

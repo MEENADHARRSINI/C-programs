@@ -1,7 +1,7 @@
 /*
 program 55
 23.06.22
-even or odd using while loop
+even or odd
 */
 #include<stdio.h>
 main()
@@ -12,9 +12,9 @@ main()
 	{
 		a=c%2;
 		if(a==0)
-		printf(" even %d",c);
+		printf("even %d",c);
 		else
-		printf(" odd %d",c);
+		printf("odd %d",c);
 		c=c+1;
 	}
 }

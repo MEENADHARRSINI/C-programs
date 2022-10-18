@@ -8,7 +8,7 @@ main()
 {
 	int p,q,r,s,m,n,c;
 	p=m=n=q=0;
-	for ( scanf("%d",&c);c!=1000;scanf("%d",&c))
+	for (scanf("%d",&c);c!=1000;scanf("%d",&c))
 	{
 		if (c>0)
 		{
@@ -28,5 +28,4 @@ main()
 	s=m/n;
 	printf("%d",r);
 	printf("%d",s);
-	printf("%d",c);
 }

@@ -1,7 +1,7 @@
 /*
 program 9
 17.06.22
-area of rectangle without fixed value, by giving input
+area of rectangle by giving input
 */
 #include<stdio.h>
 main()

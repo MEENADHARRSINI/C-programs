@@ -1,7 +1,15 @@
 /*
-program 76
+program 77
 29.06.22
-print the star
+print the star*
+              **
+              ***
+              ****
+              *****
+              ****
+              ***
+              **
+              *
 */
 #include<stdio.h>
 main()
@@ -9,7 +17,7 @@ main()
 	int c,n,d,e,f,m;
 	c=1;
 	n=1;
-	while (c<=6)
+	while (c<=5)
 	{
 		d=1;
 		while (d<=n)

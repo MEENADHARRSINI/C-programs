@@ -1,7 +1,7 @@
 /*
 program 56
 24.06.22
-leap year or not using while loop
+leap year or not
 */
 #include<stdio.h>
 main()

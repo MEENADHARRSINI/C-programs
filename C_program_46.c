@@ -11,7 +11,7 @@ main()
 	if(a>=97&&a<=122)
 	{
 		b=a-32;
-		printf("b %c",b);
+		printf("%c",b);
 	}
 	else
 	printf("not lower case %c",a);

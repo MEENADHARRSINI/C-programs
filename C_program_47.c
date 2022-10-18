@@ -37,4 +37,6 @@ main()
 	else
 	if(a==9)
 	printf("nine %d",a);
+	else
+	printf("not a single digit %d",a);
 }

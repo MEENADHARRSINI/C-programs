@@ -16,7 +16,7 @@ main()
 		scanf("%c",&a[i]);
 	}
 	a[i]='\0';
-	j=0;
+	i=j=0;
 	while (a[i]!='\0')
 	{
 		if (a[i]==',')

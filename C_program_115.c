@@ -16,6 +16,7 @@ main()
 		scanf("%c",&a[i]);
 	}
 	a[i]='\0';
+	i=0;
 	j=0;
 	while (a[i]!='\0')
 	{
@@ -25,11 +26,11 @@ main()
 		if (a[i]==';')
 		i=i+1;
 		else
-		{
-			b[j]=a[i];
-			j=j+1;
-			i=i+1;
-		}
+			{
+				b[j]=a[i];
+				j=j+1;
+				i=i+1;
+			}
 	}
 	b[j]='\0';
 	printf("%s",b);	

@@ -1,7 +1,7 @@
 /*
 program 12
 17.06.22
-volume of cylinder without fixed value, by giving input
+volume of cylinder by giving input
 */
 #include<stdio.h>
 main()

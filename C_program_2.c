@@ -1,6 +1,6 @@
 /*
 program 2
-16.06.22
+17.06.22
 area of rectangle
 */
 #include<stdio.h>

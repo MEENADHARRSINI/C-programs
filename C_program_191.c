@@ -18,5 +18,6 @@ main()
 	c[k]=a[i];
 	for (j=0;b[j];k++,j++)
 	c[k]=b[j];
+	c[k]='\0';
 	puts(c);
 }

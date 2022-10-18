@@ -15,16 +15,17 @@ main()
 	;
 	b[j]='\0';
 	for (k=0;(c[k]=getchar())!='$';k++)
+	;
 	c[k]='\0';
-	for (i=0;a[i];i++)
+	for (i=m=0;a[i]!='\0';)
 	{
-		for (j=0,k=0,l=i;b[j]==a[l]&&b[j]!='\0';j++,l++)
+		for (j=0,k=i;b[j]==a[k]&&b[j]!='\0';k++,j++)
 		;
 		if (b[j]=='\0')
 		{
-			for (i=l,k=0;c[k];k++)
+			for (l=0,i=k;c[l]!='\0';l++)
 			{
-				d[m]=c[k];
+				d[m]=c[l];
 				m++;
 			}
 		}
@@ -32,8 +33,9 @@ main()
 		{
 			d[m]=a[i];
 			m++;
+			i++;
 		}
-		d[m]='\0';
-		puts(d);
 	}
+	d[m]='\0';
+	printf("%s",d);
 }

@@ -8,7 +8,7 @@ main()
 {
 	char a[1000];
 	int i,v,c;
-	for (i=v=c=0,a[i]=getchar();a[i]!='$';i++,a[i]=getchar())
+	for (i=0,a[i]=getchar();a[i]!='$';i++,a[i]=getchar())
 	;
 	a[i]='\0';
 	for (i=v=c=0;a[i]!='\0';i++)

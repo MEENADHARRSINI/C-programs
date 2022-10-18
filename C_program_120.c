@@ -20,6 +20,7 @@ main()
 	i=0;
 	j=0;
 	b[j]=0;
+	k=0;
 	j=j+1;
 	while (a[i]!='\0')
 	{
@@ -30,17 +31,11 @@ main()
 		}
 		i=i+1;
 	}
-	b[j]=-1;
-	scanf("%d",& n);
-	scanf("%d",& m);
+	b[j]='-1';
+	scanf("%d",&n);
+	scanf("%d",&m);
 	i=0;
 	j=0;
-	while (b[j]!=-1)
-	{
-		printf("%d",b[j]);
-		j=j+1;
-	}
-	b[j]=-1;
 	k=0;
 	i=b[n-1];
 	j=b[m];

@@ -1,7 +1,7 @@
 /*
 program 61
 24.06.22
-show positive, negative or zero other than thousand
+check whether positive, negative or zero other than thousand
 */
 #include<stdio.h>
 main()
