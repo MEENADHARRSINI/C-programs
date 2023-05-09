@@ -8,6 +8,8 @@ typedef struct area
 {
 	float area,radius;
 }Area;
+void fnread(Area *pa);
+void fnarea(Area *pa);
 main()
 {
 	Area a;
